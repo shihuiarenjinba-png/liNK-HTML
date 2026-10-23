@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="津覇実輝アレンによるWindows向けデスクトップアプリケーションの開発・提供。製品情報、サポート、販売方針をご案内します。">
+<title>津覇実輝アレン | Windows Software</title>
+<style>
+:root{--bg:#0b1020;--card:#141c31;--line:#293650;--text:#f5f7fc;--muted:#a8b4c9;--accent:#8f83ff;--accent2:#59d2ef}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,"Noto Sans JP","Yu Gothic",system-ui,sans-serif;background:linear-gradient(180deg,#090e1b,#0d1426 45%,#0a1020);color:var(--text);line-height:1.8}
+a{color:inherit}header,main,footer{width:min(1080px,calc(100% - 36px));margin:auto}header{display:flex;justify-content:space-between;align-items:center;padding:28px 0;gap:24px}nav{display:flex;gap:18px;flex-wrap:wrap}nav a{text-decoration:none;color:#cbd4e5;font-size:.9rem}
+.brand{font-weight:800;letter-spacing:.02em}.brand small{display:block;color:var(--muted);font-weight:500;font-size:.72rem}
+.hero{padding:86px 0 72px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}.eyebrow{color:#aaa3ff;font-weight:800;letter-spacing:.14em;font-size:.76rem}.hero h1{font-size:clamp(2.4rem,5vw,4.5rem);line-height:1.16;margin:.35em 0 .4em;letter-spacing:-.045em}.hero h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;color:transparent}.hero p{color:#bec9dc;max-width:650px}
+.panel{border:1px solid var(--line);background:linear-gradient(145deg,#18213a,#11192c);border-radius:20px;padding:28px;box-shadow:0 25px 80px #0006}.panel strong{font-size:1.2rem}.panel ul{padding-left:1.2rem;color:#b9c5da}
+section{padding:72px 0;border-top:1px solid #1e2940}h2{font-size:clamp(1.7rem,3vw,2.5rem);margin:.2em 0 .6em}.lead{color:var(--muted);max-width:760px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:28px}.card{border:1px solid var(--line);background:var(--card);border-radius:16px;padding:26px}.card h3{margin:.1em 0 .5em}.card p{color:#b8c4d8}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.tag{font-size:.75rem;border:1px solid #42516f;border-radius:999px;padding:4px 10px;color:#d6def0}.info{display:grid;grid-template-columns:180px 1fr;border-top:1px solid var(--line)}.info div{display:contents}.info dt,.info dd{margin:0;padding:15px 0;border-bottom:1px solid var(--line)}.info dt{color:#98a6bf}.notice{border-left:3px solid var(--accent);padding:14px 18px;background:#141e35;color:#c6d0e2;border-radius:0 10px 10px 0}.links{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}.button{display:inline-block;text-decoration:none;border:1px solid #465674;border-radius:10px;padding:10px 15px}.button.primary{background:linear-gradient(120deg,#9488ff,#6f75ff);color:#0b1020;border:none;font-weight:800}
+footer{padding:40px 0 55px;color:#8f9db7;font-size:.8rem}.fine{font-size:.8rem;color:#8f9db7}
+@media(max-width:760px){.hero,.grid{grid-template-columns:1fr}.hero{padding-top:45px}.info{grid-template-columns:1fr}.info div{display:block;border-bottom:1px solid var(--line)}.info dt,.info dd{border:0;padding:7px 0}.info dt{padding-top:14px}.info dd{padding-bottom:14px}header{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">津覇実輝アレン<small>Windows Software</small></div>
+  <nav aria-label="メインナビゲーション">
+    <a href="#products">製品</a><a href="#business">事業情報</a><a href="#support">サポート</a><a href="#policies">販売方針</a>
+  </nav>
+</header>
+<main>
+  <section class="hero" style="border-top:0">
+    <div>
+      <div class="eyebrow">WINDOWS DESKTOP SOFTWARE</div>
+      <h1>Windows向けアプリを、<br><span>分かりやすく届ける。</span></h1>
+      <p>Windows向けデスクトップアプリケーションの企画・開発・提供を行っています。このサイトでは、事業内容、代表的な製品、サポート方針、販売に関する基本情報をご案内します。</p>
+      <div class="links"><a class="button primary" href="#products">製品を見る</a><a class="button" href="#support">サポート</a></div>
+    </div>
+    <aside class="panel">
+      <strong>事業概要</strong>
+      <ul><li>Windowsデスクトップアプリの企画・開発</li><li>Microsoft Store等を通じたソフトウェア提供</li><li>製品改善・ユーザーサポート</li></ul>
+    </aside>
+  </section>
+
+  <section id="products">
+    <div class="eyebrow">PRODUCTS</div>
+    <h2>代表的なアプリケーション</h2>
+    <p class="lead">各製品の正式な価格、販売地域、提供状況は、公開された販売ページまたはMicrosoft Storeの商品ページに表示される内容を優先します。</p>
+    <div class="grid">
+      <article class="card"><h3>Small Business Simulator</h3><p>小規模事業の運営をテーマとしたWindows向けデスクトップアプリケーション。</p><div class="tags"><span class="tag">Windows</span><span class="tag">Desktop App</span></div></article>
+      <article class="card"><h3>STRATEGY MARKET</h3><p>市場・戦略をテーマとしたWindows向けデスクトップアプリケーション。日本語版・英語版を含む製品展開を予定しています。</p><div class="tags"><span class="tag">Windows</span><span class="tag">JP / US</span></div></article>
+    </div>
+  </section>
+
+  <section id="business">
+    <div class="eyebrow">BUSINESS</div><h2>事業情報</h2>
+    <dl class="info">
+      <div><dt>事業者名</dt><dd>津覇実輝アレン</dd></div>
+      <div><dt>事業内容</dt><dd>Windows向けデスクトップアプリケーションの企画・開発・提供</dd></div>
+      <div><dt>主な提供経路</dt><dd>Microsoft Store、および製品ごとに明示する公式販売経路</dd></div>
+    </dl>
+  </section>
+
+  <section id="support">
+    <div class="eyebrow">SUPPORT</div><h2>お問い合わせ・サポート</h2>
+    <p class="lead">購入前の質問、製品の利用方法、不具合などについては、各製品の販売ページに記載するサポート窓口をご利用ください。サイト公開準備中の連絡窓口として、このリポジトリのIssuesも利用できます。</p>
+    <div class="links"><a class="button" href="https://github.com/shihuiarenjinba-png/liNK-HTML/issues">GitHub Issues</a></div>
+  </section>
+
+  <section id="policies">
+    <div class="eyebrow">POLICIES</div><h2>販売・返金・プライバシー</h2>
+    <div class="grid">
+      <article class="card"><h3>販売条件</h3><p>価格、決済方法、提供時期、動作環境は各製品の正式な販売ページに明示します。Microsoft Store経由の購入には、同ストア上で表示される条件が適用される場合があります。</p></article>
+      <article class="card"><h3>返金・キャンセル</h3><p>返金やキャンセルの可否・手続きは購入経路と製品条件に従います。購入前に販売ページの条件をご確認ください。</p></article>
+      <article class="card"><h3>プライバシー</h3><p>決済や配布で外部サービスを利用する場合、それぞれのサービスのプライバシー方針が適用されます。アプリ固有のデータ取扱いがある場合は、製品ページで明示します。</p></article>
+      <article class="card"><h3>特定商取引法に基づく表示</h3><p>日本国内で直接販売を開始する場合、販売形態に応じて必要な表示事項をこのサイトまたは購入画面から確認できる形で掲載します。</p></article>
+    </div>
+    <p class="fine">※ 現在は販売サイト整備中です。Stripe等の決済を本番利用する前に、実際の販売条件・連絡先・必要な法定表示を確定し、本ページを更新します。</p>
+  </section>
+</main>
+<footer>© 津覇実輝アレン. Windows Software.</footer>
+</body>
+</html>
